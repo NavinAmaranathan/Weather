@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TabViewController.swift
 //  Weather
 //
 //  Created by Navi on 02/08/22.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TabViewController: UITabBarController {
+
+    // MARK: - Lifecycle methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
